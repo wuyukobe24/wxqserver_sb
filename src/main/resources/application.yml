@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: WXQServer_sb
+
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/college_poi
+    username: root
+    password: wang5681388
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+upload:
+  localPath: /Users/wxq/Desktop/upload/
+  accessPath: /upload/
